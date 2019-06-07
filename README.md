@@ -1,6 +1,6 @@
 # JS Prefer Objects
 
-> Sublime Text plugin coming soon 🤗
+> Builds coming soon 🤗
 
 Change your switch statements...
 ```js
@@ -29,3 +29,11 @@ const isFruit = type =>
         default: false
     }[type || "default"]);
 ```
+
+## Contributing
+
+We'd love your help improving this little tool!
+
+* Move `js-prefer-objects.py` to your Sublime Text user plugins folder
+* Open ST console (Ctrl+`)
+* Run the command: `view.run_command("js_prefer_objects")`
