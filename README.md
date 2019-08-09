@@ -1,8 +1,9 @@
-# JS Prefer Objects
+# js-prefer-objects
 
 > Builds coming soon 🤗
 
 Change your switch statements...
+
 ```js
 switch (isFruit) {
     case "pitaya":
@@ -20,6 +21,7 @@ switch (isFruit) {
 ```
 
 ...to object literals, woo!
+
 ```js
 const isFruit = type =>
     ({
@@ -35,5 +37,5 @@ const isFruit = type =>
 We'd love your help improving this little tool!
 
 * Move `js-prefer-objects.py` to your Sublime Text user plugins folder
-* Open ST console (Ctrl+`)
+* Open ST console (`` ctrl+` ``)
 * Run the command: `view.run_command("js_prefer_objects")`
