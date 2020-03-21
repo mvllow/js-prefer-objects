@@ -1,6 +1,6 @@
-# js-prefer-objects
+# Sublime objectify
 
-> Builds coming soon 🤗
+> 🚧 This was thrown together to learn more about sublime plugins and is not fully working
 
 Change your switch statements...
 
